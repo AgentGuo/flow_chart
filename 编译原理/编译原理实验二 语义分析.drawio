@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T02:58:13.471Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="oLLhWHGH6ZxtHju5Y31G" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T03:11:43.060Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="-RD9SJhsh9VvV-DWY-Xn" version="13.10.0" type="github">
   <diagram id="rp_4MqlQ7USVMExoHMae" name="第 1 页">
-    <mxGraphModel dx="766" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="638" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,6 +57,36 @@
         </mxCell>
         <mxCell id="xB0RSNzooxxXf9CG0fyF-18" value="&lt;span&gt;PARAM_LIST&amp;nbsp;&lt;/span&gt;PARAM_DEC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1310" y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-19" value="PARAM_DEC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-20" value="flag = &#39;P&#39;&lt;br&gt;变量类型 ID" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="185" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-21" value="COMP_STM复合语句" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-23" value="flag=&#39;T&#39;&lt;br&gt;记录当前作用域符号在符号表中的起始位置&lt;br&gt;分析变量定义列表&lt;br&gt;分析语句列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="180" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-24" value="DEF_LIST定义列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="115" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-25" value="VAR_DEF&lt;br&gt;DEF_LIST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-27" value="VAR_DEF变量定义" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="115" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-28" value="TYPE&lt;br&gt;DEC_LIST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-29" value="&lt;span&gt;DEC_LIST ID的列表&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="115" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xB0RSNzooxxXf9CG0fyF-30" value="ID&lt;br&gt;DEC_LIST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="170" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
