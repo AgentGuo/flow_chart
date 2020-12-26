@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T15:09:04.931Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="C99Kugv_RgfJELYjK0Yz" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-26T15:12:06.077Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="70yGYQg8MrEVyeUPX-er" version="14.0.5" type="github">
   <diagram id="1LNri8jvTjA_DsEyjVDy" name="第 1 页">
     <mxGraphModel dx="631" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -43,8 +43,14 @@
         <mxCell id="LysfhLtWN7XJu4vFpzCQ-5" value="switch T-&amp;gt;kind" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="250" width="130" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="LysfhLtWN7XJu4vFpzCQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LysfhLtWN7XJu4vFpzCQ-7" target="LysfhLtWN7XJu4vFpzCQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LysfhLtWN7XJu4vFpzCQ-7" value="case:EXT_DEF_LIST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LysfhLtWN7XJu4vFpzCQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LysfhLtWN7XJu4vFpzCQ-8" target="LysfhLtWN7XJu4vFpzCQ-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LysfhLtWN7XJu4vFpzCQ-8" value="case: EXT_VAR_DEF" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="350" width="120" height="30" as="geometry" />
@@ -55,8 +61,20 @@
             <mxPoint x="455" y="364.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="LysfhLtWN7XJu4vFpzCQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LysfhLtWN7XJu4vFpzCQ-11" target="LysfhLtWN7XJu4vFpzCQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LysfhLtWN7XJu4vFpzCQ-11" value="case&amp;nbsp;ARGS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="350" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LysfhLtWN7XJu4vFpzCQ-16" value="执行相应操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LysfhLtWN7XJu4vFpzCQ-24" value="执行相应操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LysfhLtWN7XJu4vFpzCQ-25" value="执行相应操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="400" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
