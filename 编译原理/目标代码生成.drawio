@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T15:58:57.060Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="ZJ1Lr1snovCebkHflX5b" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T16:01:45.117Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="XJBt0LDcVSpwQosQaHri" version="14.1.3" type="github">
   <diagram id="GfPdDBj2nY77ngwUE2eu" name="第 1 页">
     <mxGraphModel dx="711" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -117,8 +117,14 @@
         <mxCell id="Vk-YHddnxNWAiO7JuI4h-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="Vk-YHddnxNWAiO7JuI4h-39" target="Vk-YHddnxNWAiO7JuI4h-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Vk-YHddnxNWAiO7JuI4h-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="Vk-YHddnxNWAiO7JuI4h-39" target="Vk-YHddnxNWAiO7JuI4h-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vk-YHddnxNWAiO7JuI4h-39" value="装载每一个参数&lt;br&gt;lw&amp;nbsp;$t1,&amp;nbsp;p-&amp;gt;result.offset($t0)&lt;br&gt;move&amp;nbsp;$t3,$t1&lt;br&gt;sw&amp;nbsp;$t3,symbolTable.symbols[i].offset($sp)" style="whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="885" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk-YHddnxNWAiO7JuI4h-43" value="调用函数并恢复栈增，保存返回值&lt;br&gt;jal&amp;nbsp;opn1.id&lt;br&gt;lw&amp;nbsp;$ra,0($sp)&lt;br&gt;addi&amp;nbsp;$sp,$sp,symbolTable.symbols[h-&amp;gt;opn1.offset].offset&lt;br&gt;sw&amp;nbsp;$v0,h-&amp;gt;result.offset($sp)" style="whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="990" width="310" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
