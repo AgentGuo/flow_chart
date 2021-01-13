@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T06:58:20.709Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="EDNVa00qkLP3148r0yzf" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-13T07:11:30.360Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="rO_YzUlDRQqiAAxuuJN9" version="14.1.9" type="github" pages="4">
   <diagram id="I5vamopJ3deB-taXm16G" name="第 1 页">
     <mxGraphModel dx="701" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -237,8 +237,44 @@
         <mxCell id="BXDnWHQRJDUZymQBICM--21" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="370" y="340" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--22" target="BXDnWHQRJDUZymQBICM--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--22" value="使用bind将套接字sock和clientAddr绑定" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="220" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--24" target="BXDnWHQRJDUZymQBICM--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--24" target="BXDnWHQRJDUZymQBICM--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--24" value="读取选择的传输模式choose" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="187.5" y="790" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--26" value="字符模式&lt;br&gt;sendPacket.mode = netascii" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="90" y="890" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--27" target="BXDnWHQRJDUZymQBICM--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--27" value="数据包类型为写文件请求包WRQ&lt;br&gt;sendPacket.cmd = htons(CMD_WRQ);" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="172.5" y="660" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--30" target="BXDnWHQRJDUZymQBICM--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--30" value="数据包文件名&lt;br&gt;sendPacket.filename&amp;nbsp; = filename" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="185" y="730" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--33" value="二进制模式&lt;br&gt;sendPacket.mode = octet" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="310" y="890" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--38" value="choose = 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="155" y="840" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--39" value="choose = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="340" y="840" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
