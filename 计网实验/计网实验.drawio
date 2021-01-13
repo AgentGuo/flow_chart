@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T07:22:52.284Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Mx5Sj733_7oOCnhvBR85" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-13T07:24:41.433Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="xDL_ic0KRDbTV9V78V1g" version="14.1.9" type="github" pages="4">
   <diagram id="I5vamopJ3deB-taXm16G" name="第 1 页">
     <mxGraphModel dx="701" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -179,7 +179,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3LLxdsI6JrinUnnLnhiB" name="第 4 页">
-    <mxGraphModel dx="701" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1168" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="BXDnWHQRJDUZymQBICM--0" />
         <mxCell id="BXDnWHQRJDUZymQBICM--1" parent="BXDnWHQRJDUZymQBICM--0" />
@@ -337,6 +337,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--56" target="BXDnWHQRJDUZymQBICM--68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="1360" />
+              <mxPoint x="630" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--56" value="r_size &amp;gt;= 4 &amp;amp;&amp;amp;&amp;nbsp;&lt;br&gt;rcv_packet.cmd == htons(CMD_ACK)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="115" y="1330" width="330" height="60" as="geometry" />
         </mxCell>
@@ -361,6 +369,9 @@
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--65" value="error(&quot;Could not receive from server.&quot;)&lt;br&gt;并写入日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="480" y="1110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--68" value="收到ACK，开始传输文件&lt;br&gt;打开文件&lt;br&gt;fp = fopen(filename);" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="780" y="115" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
