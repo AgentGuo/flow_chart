@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T07:43:26.500Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="DT-gIJ0PRzbjqsNL2x_2" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-13T07:48:57.166Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="DuA1QiQBXSSmYVSs_zrY" version="14.1.9" type="github" pages="4">
   <diagram id="I5vamopJ3deB-taXm16G" name="第 1 页">
     <mxGraphModel dx="701" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -179,7 +179,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3LLxdsI6JrinUnnLnhiB" name="第 4 页">
-    <mxGraphModel dx="701" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1969" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="BXDnWHQRJDUZymQBICM--0" />
         <mxCell id="BXDnWHQRJDUZymQBICM--1" parent="BXDnWHQRJDUZymQBICM--0" />
@@ -202,7 +202,7 @@
           <mxGeometry x="215" y="260" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--9" value="error(&amp;quot;open log file failed&amp;quot;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="400" y="347.5" width="160" height="35" as="geometry" />
+          <mxGeometry x="385" y="347.5" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--10" target="BXDnWHQRJDUZymQBICM--16">
           <mxGeometry relative="1" as="geometry" />
@@ -229,13 +229,13 @@
           <mxGeometry x="215" y="500" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--18" value="error(&quot;Client create socket error!&quot;)&lt;br&gt;写入日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="380" y="505" width="200" height="40" as="geometry" />
+          <mxGeometry x="380" y="505" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--20" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="260" y="390" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--21" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="370" y="340" width="20" height="20" as="geometry" />
+          <mxGeometry x="355" y="347.5" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--22" target="BXDnWHQRJDUZymQBICM--27">
           <mxGeometry relative="1" as="geometry" />
@@ -256,7 +256,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--26" value="字符模式&lt;br&gt;sendPacket.mode = netascii" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="90" y="890" width="160" height="50" as="geometry" />
+          <mxGeometry x="110" y="890" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--27" target="BXDnWHQRJDUZymQBICM--30">
           <mxGeometry relative="1" as="geometry" />
@@ -274,7 +274,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--33" value="二进制模式&lt;br&gt;sendPacket.mode = octet" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="310" y="890" width="160" height="50" as="geometry" />
+          <mxGeometry x="285" y="890" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--38" value="choose = 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="155" y="840" width="70" height="20" as="geometry" />
@@ -304,7 +304,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--47" target="BXDnWHQRJDUZymQBICM--65">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="1135" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--47" value="小于最大等待时间&lt;br&gt;time_wait_ack &amp;lt; PKT_RCV_TIMEOUT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="120" y="1100" width="320" height="70" as="geometry" />
@@ -340,8 +344,8 @@
         <mxCell id="BXDnWHQRJDUZymQBICM--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--56" target="BXDnWHQRJDUZymQBICM--68">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="1360" />
-              <mxPoint x="620" y="145" />
+              <mxPoint x="530" y="1360" />
+              <mxPoint x="530" y="145" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -368,13 +372,13 @@
           <mxGeometry x="90" y="1340" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--65" value="error(&quot;Could not receive from server.&quot;)&lt;br&gt;并写入日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="460" y="1110" width="130" height="50" as="geometry" />
+          <mxGeometry x="400" y="1180" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--68" target="BXDnWHQRJDUZymQBICM--70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--68" value="收到ACK，开始传输文件&lt;br&gt;打开文件&lt;br&gt;fp = fopen(filename);" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="835" y="115" width="150" height="60" as="geometry" />
+          <mxGeometry x="680" y="115" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--70" target="BXDnWHQRJDUZymQBICM--72">
           <mxGeometry relative="1" as="geometry" />
@@ -383,22 +387,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--70" value="fp = NULL ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="860" y="197.5" width="100" height="40" as="geometry" />
+          <mxGeometry x="705" y="197.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--72" value="error(&quot;File not exists!&quot;)&lt;br&gt;并写入日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="1000" y="200" width="155" height="35" as="geometry" />
+          <mxGeometry x="845" y="200" width="155" height="35" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--74" target="BXDnWHQRJDUZymQBICM--77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--74" value="start = clock();&lt;br&gt;block = 1&lt;br&gt;sendPacket.cmd = htons(CMD_DATA);&lt;br&gt;s_size = fread(sendPacket.data, 1, DATA_SIZE, fp);" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="757.8199999999999" y="260" width="304.37" height="60" as="geometry" />
+          <mxGeometry x="602.8199999999999" y="260" width="304.37" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--77" target="BXDnWHQRJDUZymQBICM--79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--77" value="rxmt = 0 // 重传次数" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="852.5" y="350" width="115" height="32.5" as="geometry" />
+          <mxGeometry x="697.5" y="350" width="115" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--79" target="BXDnWHQRJDUZymQBICM--86">
           <mxGeometry relative="1" as="geometry" />
@@ -407,24 +411,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--79" value="rxmt &amp;lt; 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="870" y="400" width="80" height="30" as="geometry" />
+          <mxGeometry x="715" y="400" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--81" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="960" y="190" width="20" height="20" as="geometry" />
+          <mxGeometry x="805" y="190" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--83" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="890" y="237.5" width="20" height="20" as="geometry" />
+          <mxGeometry x="735" y="237.5" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--86" target="BXDnWHQRJDUZymQBICM--126">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="910" y="500" />
-              <mxPoint x="910" y="500" />
+              <mxPoint x="755" y="500" />
+              <mxPoint x="755" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--86" value="发送数据包&lt;br&gt;sendto(sock, sendPacket)" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="825" y="450" width="170" height="40" as="geometry" />
+          <mxGeometry x="670" y="450" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--126" target="BXDnWHQRJDUZymQBICM--128">
           <mxGeometry relative="1" as="geometry" />
@@ -432,14 +436,14 @@
         <mxCell id="BXDnWHQRJDUZymQBICM--125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--126" target="BXDnWHQRJDUZymQBICM--141">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BXDnWHQRJDUZymQBICM--126" value="小于最大等待时间&lt;br&gt;time_wait_ack &amp;lt; PKT_RCV_TIMEOUT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="750" y="537" width="320" height="70" as="geometry" />
+        <mxCell id="BXDnWHQRJDUZymQBICM--126" value="小于最大等待时间&lt;br&gt;time_wait_ack &amp;lt; &lt;br&gt;PKT_RCV_TIMEOUT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="652.5" y="537" width="205" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--128" target="BXDnWHQRJDUZymQBICM--131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--128" value="接收数据包&lt;br&gt;r_size = recvfrom(sock, rcv_packet)" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="805" y="637" width="210" height="40" as="geometry" />
+          <mxGeometry x="650" y="637" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--131" target="BXDnWHQRJDUZymQBICM--132">
           <mxGeometry relative="1" as="geometry" />
@@ -448,85 +452,85 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--131" value="r_size &amp;lt; 4 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="850" y="697" width="120" height="40" as="geometry" />
+          <mxGeometry x="695" y="697" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--132" value="error(&quot;&quot;Bad packet&quot;)&lt;br&gt;写入日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="1017.5" y="697" width="120" height="40" as="geometry" />
+          <mxGeometry x="845" y="697" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--133" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="972.5" y="697" width="20" height="20" as="geometry" />
+          <mxGeometry x="817.5" y="697" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--135" target="BXDnWHQRJDUZymQBICM--137">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="705" y="797" />
+              <mxPoint x="615" y="797" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--135" target="BXDnWHQRJDUZymQBICM--143">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BXDnWHQRJDUZymQBICM--135" value="r_size &amp;gt;= 4 &amp;amp;&amp;amp;&amp;nbsp;&lt;br&gt;rcv_packet.cmd == htons(CMD_ACK)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="745" y="767" width="330" height="60" as="geometry" />
+        <mxCell id="BXDnWHQRJDUZymQBICM--135" value="r_size &amp;gt;= 4 &amp;amp;&amp;amp;&amp;nbsp;&lt;br&gt;rcv_packet.cmd ==&lt;br&gt;&amp;nbsp;htons(CMD_ACK)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="652.5" y="767" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--137" target="BXDnWHQRJDUZymQBICM--126">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="705" y="572" />
+              <mxPoint x="615" y="572" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--137" value="Sleep(20);&lt;br&gt;time_wait_ack += 20" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="640" y="667" width="130" height="40" as="geometry" />
+          <mxGeometry x="550" y="717" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--138" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="880" y="607" width="20" height="20" as="geometry" />
+          <mxGeometry x="725" y="607" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--139" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="880" y="737" width="20" height="20" as="geometry" />
+          <mxGeometry x="725" y="737" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--140" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="720" y="777" width="20" height="20" as="geometry" />
+          <mxGeometry x="625" y="777" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--141" target="BXDnWHQRJDUZymQBICM--147">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--141" value="error(&quot;Could not receive from server.&quot;)&lt;br&gt;并写入日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="1110" y="547" width="130" height="50" as="geometry" />
+          <mxGeometry x="885" y="547" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--143" target="BXDnWHQRJDUZymQBICM--156">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--143" value="发送成功, 写入日志&lt;br&gt;block++" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="857.5" y="850" width="105" height="40" as="geometry" />
+          <mxGeometry x="702.5" y="850" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--145" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="1067.5" y="550" width="20" height="20" as="geometry" />
+          <mxGeometry x="857.5" y="547" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--147" target="BXDnWHQRJDUZymQBICM--79">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1175" y="415" />
+              <mxPoint x="950" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--147" value="rxmt++" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="1145" y="440" width="60" height="30" as="geometry" />
+          <mxGeometry x="920" y="475" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--150" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="880" y="430" width="20" height="20" as="geometry" />
+          <mxGeometry x="725" y="430" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--151" value="error(&quot;Could not receive from server.&quot;)&#xa;并写入日志" style="whiteSpace=wrap;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="715" y="387.5" width="120" height="55" as="geometry" />
+          <mxGeometry x="560" y="387.5" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--153" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="840" y="390" width="20" height="20" as="geometry" />
+          <mxGeometry x="685" y="390" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--156" target="BXDnWHQRJDUZymQBICM--74">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1250" y="930" />
-              <mxPoint x="1250" y="290" />
+              <mxPoint x="1025" y="930" />
+              <mxPoint x="1025" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -534,25 +538,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--156" value="s_size == DATA_SIZE ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="825" y="910" width="170" height="40" as="geometry" />
+          <mxGeometry x="670" y="910" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--159" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="1010" y="905" width="20" height="20" as="geometry" />
+          <mxGeometry x="855" y="905" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--160" target="BXDnWHQRJDUZymQBICM--162">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--160" value="end = clock();&lt;br&gt;计算传输时间&lt;br&gt;consumeTime = ((double)(end - start)) / CLK_TCK;&lt;br&gt;计算传输速率、丢包率&lt;br&gt;写入日志" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="765" y="980" width="290" height="80" as="geometry" />
+          <mxGeometry x="610" y="980" width="290" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--162" target="BXDnWHQRJDUZymQBICM--164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--162" value="关闭日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="870" y="1090" width="80" height="30" as="geometry" />
+          <mxGeometry x="715" y="1090" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--164" value="结束" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="875" y="1140" width="70" height="30" as="geometry" />
+          <mxGeometry x="720" y="1140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--166" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="725" y="950" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--167" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="437.5" y="1110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--168" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="445" y="1340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--169" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="725" y="827" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
