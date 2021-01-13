@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T07:13:27.988Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="FLCbtmseuP4f3Rv7qteW" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-13T07:14:59.379Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="OTL51ulyzBWSXhY_q2sk" version="14.1.9" type="github" pages="4">
   <diagram id="I5vamopJ3deB-taXm16G" name="第 1 页">
     <mxGraphModel dx="701" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -288,8 +288,20 @@
         <mxCell id="BXDnWHQRJDUZymQBICM--41" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="345" y="500" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--42" target="BXDnWHQRJDUZymQBICM--45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--42" value="发送数据包&lt;br&gt;sendto(sock, sendPacket)" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="195" y="980" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--45" target="BXDnWHQRJDUZymQBICM--47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--45" value="time_wait_ack = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="220" y="1050" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--47" value="小于最大等待时间&lt;br&gt;time_wait_ack &amp;lt; PKT_RCV_TIMEOUT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="120" y="1100" width="320" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
