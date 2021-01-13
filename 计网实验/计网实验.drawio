@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T07:17:44.402Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="0SMGn5Sylmzaah-8Ty-R" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-13T07:21:07.440Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="kdi0O38GLxJDMLSdLq_H" version="14.1.9" type="github" pages="4">
   <diagram id="I5vamopJ3deB-taXm16G" name="第 1 页">
     <mxGraphModel dx="701" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -306,14 +306,55 @@
         <mxCell id="BXDnWHQRJDUZymQBICM--47" value="小于最大等待时间&lt;br&gt;time_wait_ack &amp;lt; PKT_RCV_TIMEOUT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="120" y="1100" width="320" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--49" target="BXDnWHQRJDUZymQBICM--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BXDnWHQRJDUZymQBICM--49" value="接收数据包&lt;br&gt;r_size = recvfrom(sock, rcv_packet)" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
           <mxGeometry x="175" y="1200" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BXDnWHQRJDUZymQBICM--51" value="r_size &amp;lt; 4 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="220" y="1270" width="120" height="40" as="geometry" />
+        <mxCell id="BXDnWHQRJDUZymQBICM--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--51" target="BXDnWHQRJDUZymQBICM--52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BXDnWHQRJDUZymQBICM--52" value="error" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
-          <mxGeometry x="340" y="1270" width="120" height="60" as="geometry" />
+        <mxCell id="BXDnWHQRJDUZymQBICM--57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--51" target="BXDnWHQRJDUZymQBICM--56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--51" value="r_size &amp;lt; 4 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="220" y="1260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--52" value="error(&quot;&quot;Bad packet&quot;)&lt;br&gt;写入日志文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="387.5" y="1260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--55" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="342.5" y="1260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--56" target="BXDnWHQRJDUZymQBICM--59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="75" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--56" value="r_size &amp;gt;= 4 &amp;amp;&amp;amp;&amp;nbsp;&lt;br&gt;rcv_packet.cmd == htons(CMD_ACK)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="115" y="1330" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BXDnWHQRJDUZymQBICM--1" source="BXDnWHQRJDUZymQBICM--59" target="BXDnWHQRJDUZymQBICM--47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="75" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--59" value="Sleep(20);&lt;br&gt;time_wait_ack += 20" style="whiteSpace=wrap;html=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="10" y="1230" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--62" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="250" y="1170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--63" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="250" y="1300" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BXDnWHQRJDUZymQBICM--64" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="BXDnWHQRJDUZymQBICM--1">
+          <mxGeometry x="90" y="1340" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
