@@ -1,20 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T13:52:32.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="W1nYQY5tX_G-cwlkLjy7" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T15:00:00.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="2yjpd1C-gVDTMW_dqOu4" version="14.5.0" type="github">
   <diagram id="2ngc0Fl4a4MGpjq0SOnc" name="Page-1">
-    <mxGraphModel dx="981" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uz8UcOs9VC3BpHMvHKIV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BVQJ1FRGcdQfeB7VmXa_-1" target="BVQJ1FRGcdQfeB7VmXa_-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BVQJ1FRGcdQfeB7VmXa_-1" value="开始" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="40" width="80" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BVQJ1FRGcdQfeB7VmXa_-2" target="uz8UcOs9VC3BpHMvHKIV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BVQJ1FRGcdQfeB7VmXa_-2" value="1.实现实模式到保护模式的跳转" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uz8UcOs9VC3BpHMvHKIV-1" target="uz8UcOs9VC3BpHMvHKIV-2">
           <mxGeometry relative="1" as="geometry" />
@@ -26,22 +20,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-2" value="3.实现特权级的转移" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uz8UcOs9VC3BpHMvHKIV-3" target="uz8UcOs9VC3BpHMvHKIV-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-3" value="4.实现分页机制" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uz8UcOs9VC3BpHMvHKIV-4" target="uz8UcOs9VC3BpHMvHKIV-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-4" value="5.实现IDT表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uz8UcOs9VC3BpHMvHKIV-5" value="6.通过时钟中断切换两个任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
