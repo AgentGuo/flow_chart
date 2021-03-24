@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T01:58:29.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="ax0Ty_KAfVRddNTqBMKE" version="14.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-24T02:00:20.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="MhPP4CGqd_AtO6XrBAu7" version="14.5.0" type="github" pages="2">
   <diagram id="2ngc0Fl4a4MGpjq0SOnc" name="Page-1">
     <mxGraphModel dx="460" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,11 +71,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="d3ZTPuJE941GQqQ7f1CB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d3ZTPuJE941GQqQ7f1CB-1" source="d3ZTPuJE941GQqQ7f1CB-6" target="d3ZTPuJE941GQqQ7f1CB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d3ZTPuJE941GQqQ7f1CB-6" value="stosd&lt;br&gt;add eax, 4096" style="whiteSpace=wrap;html=1;" vertex="1" parent="d3ZTPuJE941GQqQ7f1CB-1">
           <mxGeometry x="190" y="300" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d3ZTPuJE941GQqQ7f1CB-14" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="d3ZTPuJE941GQqQ7f1CB-1">
           <mxGeometry x="210" y="270" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d3ZTPuJE941GQqQ7f1CB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d3ZTPuJE941GQqQ7f1CB-1" source="d3ZTPuJE941GQqQ7f1CB-15" target="d3ZTPuJE941GQqQ7f1CB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3ZTPuJE941GQqQ7f1CB-15" value="es = 物理页基址&lt;br&gt;edi = 0&lt;br&gt;eax = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="d3ZTPuJE941GQqQ7f1CB-1">
+          <mxGeometry x="185" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d3ZTPuJE941GQqQ7f1CB-17" value="循环1024 * 1024次" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="d3ZTPuJE941GQqQ7f1CB-1">
+          <mxGeometry x="165" y="460" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
