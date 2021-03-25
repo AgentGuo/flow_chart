@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T07:37:42.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="Ud88qeLMqISPTAEU-Ay1" version="14.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-25T07:47:54.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="ql0dR_Nj_5M8QF4hXkOn" version="14.5.1" type="github" pages="3">
   <diagram id="gCkAsj_C9IhO1hhZeTs3" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ztL9_LhvWpvfHRz5Ol-d" name="Page-2">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="vkAQOIpe2bprhdsHenmo-0" />
         <mxCell id="vkAQOIpe2bprhdsHenmo-1" parent="vkAQOIpe2bprhdsHenmo-0" />
@@ -117,6 +117,41 @@
         </mxCell>
         <mxCell id="vkAQOIpe2bprhdsHenmo-13" value="case&amp;nbsp;REGOPENKEYEX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vkAQOIpe2bprhdsHenmo-1">
           <mxGeometry x="485" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1wdd5aiSdMDa4_QBmngf" name="Page-3">
+    <mxGraphModel dx="458" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="MXXeN0Xd-lMd_vVhHCsD-0" />
+        <mxCell id="MXXeN0Xd-lMd_vVhHCsD-1" parent="MXXeN0Xd-lMd_vVhHCsD-0" />
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-0" target="d_H_hQX9Rvd-P66gtbbc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-0" value="case&amp;nbsp;CREATEFILE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="340" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-1" target="d_H_hQX9Rvd-P66gtbbc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-1" value="dwDesiredAccess = recvInfo.argValue[1]&lt;br&gt;// 获取打开权限" style="whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="280" y="150" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-4" target="d_H_hQX9Rvd-P66gtbbc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-4" value="dwDesiredAccess &amp;amp; GENERIC_WRITE ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="310" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-6" value="是否有写入权限？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="430" y="210" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-7" value="检查文件后缀名是&lt;br&gt;否为.exe .dll .ocx" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="310" y="310" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-9" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="370" y="290" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
