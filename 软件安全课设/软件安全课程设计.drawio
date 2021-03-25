@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T07:47:54.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="ql0dR_Nj_5M8QF4hXkOn" version="14.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-25T07:53:30.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="Ccj55TV7VegQOwNAOCVp" version="14.5.1" type="github" pages="3">
   <diagram id="gCkAsj_C9IhO1hhZeTs3" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -141,17 +141,66 @@
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-4" target="d_H_hQX9Rvd-P66gtbbc-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-4" target="d_H_hQX9Rvd-P66gtbbc-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="250" />
+              <mxPoint x="250" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-4" value="dwDesiredAccess &amp;amp; GENERIC_WRITE ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
           <mxGeometry x="310" y="220" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-6" value="是否有写入权限？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
           <mxGeometry x="430" y="210" width="110" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-7" target="d_H_hQX9Rvd-P66gtbbc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-7" value="检查文件后缀名是&lt;br&gt;否为.exe .dll .ocx" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
           <mxGeometry x="310" y="310" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-9" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
           <mxGeometry x="370" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-10" target="d_H_hQX9Rvd-P66gtbbc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-10" value="waring: 尝试对可执行文件进行修改" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="345" y="400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-12" target="d_H_hQX9Rvd-P66gtbbc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-12" value="dwDesiredAccess &amp;amp; GENERIC_READ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="310" y="470" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-15" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="260" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-16" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="260" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-17" target="d_H_hQX9Rvd-P66gtbbc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-17" value="检查文件名是否&lt;br&gt;和自身相同？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="325" y="560" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-19" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="370" y="540" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-20" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="360" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-22" value="waring: 程序可能尝试自我复制" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="345" y="650" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
