@@ -1,1 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T03:03:39.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" version="14.5.1" etag="dBD74F099YkYSpkKTyr7" type="github"><diagram id="gCkAsj_C9IhO1hhZeTs3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-25T03:13:17.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="-fy80PWODg7M6TVK4qmF" version="14.5.1" type="github">
+  <diagram id="gCkAsj_C9IhO1hhZeTs3" name="Page-1">
+    <mxGraphModel dx="458" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HE5w9epo6v061zZTmZ5D-2" value="dll程序&lt;br&gt;（定义需要hook的函数以及相应的替换函数）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="640" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-3" value="注射器程序&lt;br&gt;（启动测试程序并且将dll注入目标程序）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-4" value="测试程序&lt;br&gt;（hook目标程序，其中包含了需要的hook函数）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="640" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-5" target="HE5w9epo6v061zZTmZ5D-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="175" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-5" target="HE5w9epo6v061zZTmZ5D-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="175" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-5" value="gui程序&lt;br&gt;（主要用于检测结果展示）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-11" value="&lt;span&gt;主线程：主要负责&lt;br&gt;图像界面的刷新&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-12" value="&lt;span&gt;次线程：从共享内&lt;br&gt;存中读取检测结果&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
