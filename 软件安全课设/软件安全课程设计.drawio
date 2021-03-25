@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T08:49:36.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="tcOVRDvF9A8dMINANiET" version="14.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-25T09:56:04.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="crlu_BDuhP6SEE9ddKO_" version="14.5.1" type="github" pages="6">
   <diagram id="gCkAsj_C9IhO1hhZeTs3" name="Page-1">
     <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -356,6 +356,90 @@
         <mxCell id="rp9oax9qUsBewOzM2v3H-3" value="error：程序可能正在尝试修改开机启动项" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="A3bwmVwhAf_4mQFZeK7L-1">
           <mxGeometry x="280" y="410" width="120" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e5jnMDB_biJC1it2uw8Q" name="Page-6">
+    <mxGraphModel dx="1185" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0pFYhLHaHPBEjBKV8SQj-0" />
+        <mxCell id="0pFYhLHaHPBEjBKV8SQj-1" parent="0pFYhLHaHPBEjBKV8SQj-0" />
+        <mxCell id="0pFYhLHaHPBEjBKV8SQj-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+          <mxGeometry x="90" y="290" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0pFYhLHaHPBEjBKV8SQj-3" value="1.MessageBoxA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+          <mxGeometry x="200" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="2.MessageBoxW" link="2.MessageBoxW" id="0pFYhLHaHPBEjBKV8SQj-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="220" y="230" width="100" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="3.headCreateAndDestory" link="2.MessageBoxW" id="0pFYhLHaHPBEjBKV8SQj-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="210" y="290" width="150" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="4.writeFileString" link="4.writeFileString" id="0pFYhLHaHPBEjBKV8SQj-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="200" y="350" width="100" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="5.readFileString" link="5.readFileString" id="0pFYhLHaHPBEjBKV8SQj-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="210" y="420" width="100" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="6.regCreateAndSetValue" link="6.regCreateAndSetValue" id="0pFYhLHaHPBEjBKV8SQj-9">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="190" y="480" width="140" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="7.regOpenAndDelValue" id="0pFYhLHaHPBEjBKV8SQj-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="200" y="570" width="140" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="7.regOpenAndDelValue" id="0pFYhLHaHPBEjBKV8SQj-12">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="200" y="640" width="140" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="8.socketRecvData" link="8.socketRecvData" id="0pFYhLHaHPBEjBKV8SQj-13">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="200" y="700" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="9.socketSendData" link="9.socketSendData" id="0pFYhLHaHPBEjBKV8SQj-14">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="200" y="770" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="10.headRepeatedRelease" link="10.headRepeatedRelease" id="0pFYhLHaHPBEjBKV8SQj-15">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="195" y="840" width="150" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="11.Modifying executable" link="10.headRepeatedRelease" id="0pFYhLHaHPBEjBKV8SQj-16">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="192.5" y="900" width="135" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="12.selfReplication" link="12.selfReplication" id="0pFYhLHaHPBEjBKV8SQj-17">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="195" y="950" width="107.5" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="13.modifyStartupRegistry" link="13.modifyStartupRegistry" id="0pFYhLHaHPBEjBKV8SQj-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="206.25" y="1000" width="143.75" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="14.openAnotherFolder" link="14.openAnotherFolder" id="0pFYhLHaHPBEjBKV8SQj-19">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0pFYhLHaHPBEjBKV8SQj-1">
+            <mxGeometry x="200" y="1050" width="130" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
