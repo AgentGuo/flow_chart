@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T03:15:54.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="xXzqhVR4PcwzNtyaroSS" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T03:20:28.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="luf6oFtSTEACyc9p9X5Z" version="14.5.1" type="github">
   <diagram id="gCkAsj_C9IhO1hhZeTs3" name="Page-1">
-    <mxGraphModel dx="458" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HE5w9epo6v061zZTmZ5D-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-2" target="HE5w9epo6v061zZTmZ5D-16">
+        <mxCell id="HE5w9epo6v061zZTmZ5D-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-2" target="HE5w9epo6v061zZTmZ5D-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-2" value="dll程序&lt;br&gt;（定义需要hook的函数以及相应的替换函数）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="490" width="140" height="50" as="geometry" />
+          <mxGeometry x="260" y="520" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-3" target="HE5w9epo6v061zZTmZ5D-2">
           <mxGeometry relative="1" as="geometry" />
@@ -17,15 +17,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-3" value="注射器程序&lt;br&gt;（启动测试程序并且将dll注入目标程序）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-4" value="测试程序&lt;br&gt;（hook目标程序，其中包含了需要的hook函数）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="580" width="150" height="50" as="geometry" />
+          <mxGeometry x="260" y="610" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-5" target="HE5w9epo6v061zZTmZ5D-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="175" y="295" />
+              <mxPoint x="175" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -48,16 +48,34 @@
           <mxGeometry x="100" y="320" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-11" value="&lt;span&gt;主线程：主要负责&lt;br&gt;图像界面的刷新&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="270" width="140" height="50" as="geometry" />
+          <mxGeometry x="305" y="240" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HE5w9epo6v061zZTmZ5D-12" value="&lt;span&gt;次线程：从共享内&lt;br&gt;存中读取检测结果&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="360" width="140" height="50" as="geometry" />
+        <mxCell id="HE5w9epo6v061zZTmZ5D-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-12" target="HE5w9epo6v061zZTmZ5D-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HE5w9epo6v061zZTmZ5D-12" target="HE5w9epo6v061zZTmZ5D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-12" value="&lt;span&gt;次线程：从共享内存中&lt;br&gt;读取检测结果，然后对&lt;br&gt;读取结果进行分析&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-16" value="共享内存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="500" y="400" width="60" height="80" as="geometry" />
+          <mxGeometry x="540" y="410" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HE5w9epo6v061zZTmZ5D-18" value="创建进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="460" width="60" height="20" as="geometry" />
+          <mxGeometry x="70" y="490" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-22" value="勾取到API，将API信息写入共享内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-23" value="执行V操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="520" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-27" value="执行P操作&lt;br&gt;从共享内存中读取API信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HE5w9epo6v061zZTmZ5D-31" value="将检测结果交付主线程&lt;br&gt;在图形界面上显示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
