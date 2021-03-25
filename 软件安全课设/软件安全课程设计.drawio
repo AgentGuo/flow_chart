@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T08:00:40.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="j6Uhm-WLnb9zbuhMrWgv" version="14.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-25T08:02:07.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="d2uaAoJOOFHY7pf35YAP" version="14.5.1" type="github" pages="3">
   <diagram id="gCkAsj_C9IhO1hhZeTs3" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
             <Array as="points">
               <mxPoint x="400" y="500" />
               <mxPoint x="400" y="70" />
-              <mxPoint x="555" y="70" />
+              <mxPoint x="515" y="70" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -233,6 +233,15 @@
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-27" target="d_H_hQX9Rvd-P66gtbbc-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-27" target="d_H_hQX9Rvd-P66gtbbc-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="205" />
+              <mxPoint x="620" y="340" />
+              <mxPoint x="515" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-27" value="判断copyFolder是&lt;br&gt;否在folderSet中？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
           <mxGeometry x="430" y="170" width="170" height="70" as="geometry" />
         </mxCell>
@@ -245,17 +254,43 @@
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-31" target="d_H_hQX9Rvd-P66gtbbc-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-31" target="d_H_hQX9Rvd-P66gtbbc-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="390" />
+              <mxPoint x="620" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-31" value="&lt;span&gt;folderSet的文件&lt;br&gt;夹数量大于2？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
-          <mxGeometry x="440" y="340" width="150" height="60" as="geometry" />
+          <mxGeometry x="440" y="360" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MXXeN0Xd-lMd_vVhHCsD-1" source="d_H_hQX9Rvd-P66gtbbc-33" target="d_H_hQX9Rvd-P66gtbbc-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-33" value="waring: 对多个文件夹中的文件进行了读/写" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
-          <mxGeometry x="450" y="430" width="130" height="40" as="geometry" />
+          <mxGeometry x="450" y="450" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-40" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
           <mxGeometry x="330" y="480" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d_H_hQX9Rvd-P66gtbbc-41" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
           <mxGeometry x="320" y="570" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-42" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="490" y="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-43" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="490" y="420" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-44" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="480" y="520" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-47" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="590" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_H_hQX9Rvd-P66gtbbc-49" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MXXeN0Xd-lMd_vVhHCsD-1">
+          <mxGeometry x="600" y="180" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
