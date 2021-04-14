@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T13:33:01.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" version="14.6.0" etag="ZQYQJ01wiE-qZ6qwZFmn" type="github"><diagram id="aFzxZkKyul_X_1EKVlJx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-14T13:35:17.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="5tnCmu0MNZSXE0bLSZhl" version="14.6.0" type="github">
+  <diagram id="aFzxZkKyul_X_1EKVlJx" name="Page-1">
+    <mxGraphModel dx="1148" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gyy3-QgKAk2TTTREjQQV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gyy3-QgKAk2TTTREjQQV-1" target="gyy3-QgKAk2TTTREjQQV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gyy3-QgKAk2TTTREjQQV-1" value="开始" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gyy3-QgKAk2TTTREjQQV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gyy3-QgKAk2TTTREjQQV-2" target="gyy3-QgKAk2TTTREjQQV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gyy3-QgKAk2TTTREjQQV-2" value="从jpeg图像中读取DCT系数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gyy3-QgKAk2TTTREjQQV-4" value="获取DCT系数矩阵的高、宽&lt;br&gt;[h, w] = size(DCT)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
