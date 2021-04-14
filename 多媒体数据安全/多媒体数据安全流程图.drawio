@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T11:35:49.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="bSeUZVJlU8R_C2X0zSqi" version="14.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-14T11:56:49.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="237z8Da7a1vpKQn4t56w" version="14.6.0" type="github" pages="3">
   <diagram id="w-0ZOvCE4AglCOZXqu2t" name="Page-1">
     <mxGraphModel dx="1148" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -107,6 +107,132 @@
         </mxCell>
         <mxCell id="REHLoDAjRaezJv-nt-0C-22" value="解码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="NWQ093ry60sWMBT5W4z3-1">
           <mxGeometry x="540" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xJxWUsFV6yOlwRwfLu5R" name="Page-3">
+    <mxGraphModel dx="1148" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="NizmkpzjobgaY_tHfI47-0" />
+        <mxCell id="NizmkpzjobgaY_tHfI47-1" parent="NizmkpzjobgaY_tHfI47-0" />
+        <mxCell id="NizmkpzjobgaY_tHfI47-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-2" target="NizmkpzjobgaY_tHfI47-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-2" value="开始" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="320" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-3" target="NizmkpzjobgaY_tHfI47-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-3" value="读取图片&lt;br&gt;Picture =&amp;nbsp;imread(&#39;cover.bmp&#39;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="270" y="110" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-5" target="NizmkpzjobgaY_tHfI47-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-5" value="获取图片高、宽、通道数&lt;br&gt;[h, w, c] = size(Picture)" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="285" y="180" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-8" target="NizmkpzjobgaY_tHfI47-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-8" value="需要写入信息的二进制流msg和长度len" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="300" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-10" target="NizmkpzjobgaY_tHfI47-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-10" value="i = 1, j = 1, index = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="300" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-12" target="NizmkpzjobgaY_tHfI47-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-12" target="NizmkpzjobgaY_tHfI47-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-12" value="i &amp;lt;= h ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="305" y="380" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-14" target="NizmkpzjobgaY_tHfI47-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-14" target="NizmkpzjobgaY_tHfI47-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-14" value="j &amp;lt;= w ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="305" y="440" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-17" target="NizmkpzjobgaY_tHfI47-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-17" value="Picture(i, j, 1) = Picture(i, j, 1) - Picture(i, j, 1)%2 + msg(index);&lt;br&gt;index++;" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="180" y="500" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-19" target="NizmkpzjobgaY_tHfI47-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-19" value="j++" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="220" y="442.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-22" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="330" y="475" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-23" target="NizmkpzjobgaY_tHfI47-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-23" value="i++, j = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="450" y="382.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-26" target="NizmkpzjobgaY_tHfI47-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="580" />
+              <mxPoint x="160" y="458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-26" target="NizmkpzjobgaY_tHfI47-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-26" value="index &amp;gt; len ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="310" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-29" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="280" y="560" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-30" target="NizmkpzjobgaY_tHfI47-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-30" value="保存图片Picture" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="315" y="630" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-32" value="结束" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="320" y="690" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-34" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="340" y="600" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-35" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="330" y="420" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-36" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="415" y="430" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NizmkpzjobgaY_tHfI47-1" source="NizmkpzjobgaY_tHfI47-37" target="NizmkpzjobgaY_tHfI47-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="398" />
+              <mxPoint x="120" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-37" value="error: 载体容量不足" style="whiteSpace=wrap;html=1;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="150" y="377.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NizmkpzjobgaY_tHfI47-39" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="NizmkpzjobgaY_tHfI47-1">
+          <mxGeometry x="280" y="370" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
