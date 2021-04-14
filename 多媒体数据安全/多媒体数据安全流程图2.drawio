@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T13:35:17.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="5tnCmu0MNZSXE0bLSZhl" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T13:35:58.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="x13wTdVFGvDpsfyDkIs4" version="14.6.0" type="github">
   <diagram id="aFzxZkKyul_X_1EKVlJx" name="Page-1">
     <mxGraphModel dx="1148" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,8 +16,14 @@
         <mxCell id="gyy3-QgKAk2TTTREjQQV-2" value="从jpeg图像中读取DCT系数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="110" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="gyy3-QgKAk2TTTREjQQV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gyy3-QgKAk2TTTREjQQV-4" target="gyy3-QgKAk2TTTREjQQV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gyy3-QgKAk2TTTREjQQV-4" value="获取DCT系数矩阵的高、宽&lt;br&gt;[h, w] = size(DCT)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gyy3-QgKAk2TTTREjQQV-6" value="获取需要写入的信息msg和信息长度len" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="42.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
