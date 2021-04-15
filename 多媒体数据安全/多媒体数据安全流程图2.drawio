@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T03:11:28.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="ZuxZ2L5145Gy0lZVK95G" version="14.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-15T03:11:54.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="P687RQka2jt-fcNETWq1" version="14.6.0" type="github" pages="2">
   <diagram id="aFzxZkKyul_X_1EKVlJx" name="Page-1">
     <mxGraphModel dx="1148" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -142,34 +142,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8f3rZ-sCkK41nDPaR_Mb-2" value="开始" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
-          <mxGeometry x="388" y="30" width="75" height="40" as="geometry" />
+          <mxGeometry x="277.5" y="30" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AEwE6OS_PZrXzVe3dGkQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="priTWE7zDgwmcgAAT7SJ-0" target="AEwE6OS_PZrXzVe3dGkQ-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="priTWE7zDgwmcgAAT7SJ-0" value="从jpeg图像中读取DCT系数" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
-          <mxGeometry x="370.5" y="100" width="110" height="50" as="geometry" />
+          <mxGeometry x="260.5" y="100" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rqfWD98WtR3mUqjRS429-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="AEwE6OS_PZrXzVe3dGkQ-0" target="rqfWD98WtR3mUqjRS429-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AEwE6OS_PZrXzVe3dGkQ-0" value="获取DCT系数矩阵的高、宽&lt;br&gt;[h, w] = size(DCT)" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
-          <mxGeometry x="350" y="180" width="150" height="50" as="geometry" />
+          <mxGeometry x="240" y="180" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0MCQ88xSsWupAYkgzbr_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="rqfWD98WtR3mUqjRS429-0" target="0MCQ88xSsWupAYkgzbr_-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rqfWD98WtR3mUqjRS429-0" value="获取需要写入的信息msg和信息长度len" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
-          <mxGeometry x="365" y="260" width="120" height="42.5" as="geometry" />
+          <mxGeometry x="255" y="260" width="120" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="0MCQ88xSsWupAYkgzbr_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="0MCQ88xSsWupAYkgzbr_-0" target="0MCQ88xSsWupAYkgzbr_-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0MCQ88xSsWupAYkgzbr_-0" value="获取非零元素&lt;br&gt;index = DCT~=0;" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
-          <mxGeometry x="373" y="330" width="105" height="36.25" as="geometry" />
+          <mxGeometry x="263" y="330" width="105" height="36.25" as="geometry" />
         </mxCell>
         <mxCell id="0MCQ88xSsWupAYkgzbr_-2" value="获取非0元素下标&lt;br&gt;index = find(index);" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
-          <mxGeometry x="365.75" y="390" width="119.5" height="40" as="geometry" />
+          <mxGeometry x="255.75" y="390" width="119.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
