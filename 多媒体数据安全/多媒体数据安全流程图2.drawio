@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T03:11:54.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="P687RQka2jt-fcNETWq1" version="14.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-15T03:14:01.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="F06q9F8Ddq1TKgOhRZ8Y" version="14.6.0" type="github" pages="2">
   <diagram id="aFzxZkKyul_X_1EKVlJx" name="Page-1">
     <mxGraphModel dx="1148" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8f3rZ-sCkK41nDPaR_Mb-2" value="开始" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
-          <mxGeometry x="277.5" y="30" width="75" height="40" as="geometry" />
+          <mxGeometry x="277.5" y="40" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AEwE6OS_PZrXzVe3dGkQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="priTWE7zDgwmcgAAT7SJ-0" target="AEwE6OS_PZrXzVe3dGkQ-0">
           <mxGeometry relative="1" as="geometry" />
@@ -168,8 +168,26 @@
         <mxCell id="0MCQ88xSsWupAYkgzbr_-0" value="获取非零元素&lt;br&gt;index = DCT~=0;" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
           <mxGeometry x="263" y="330" width="105" height="36.25" as="geometry" />
         </mxCell>
+        <mxCell id="0MCQ88xSsWupAYkgzbr_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="0MCQ88xSsWupAYkgzbr_-2" target="0MCQ88xSsWupAYkgzbr_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0MCQ88xSsWupAYkgzbr_-2" value="获取非0元素下标&lt;br&gt;index = find(index);" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
           <mxGeometry x="255.75" y="390" width="119.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0MCQ88xSsWupAYkgzbr_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="0MCQ88xSsWupAYkgzbr_-4" target="0MCQ88xSsWupAYkgzbr_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MCQ88xSsWupAYkgzbr_-4" value="获取非0元素个数&lt;br&gt;indexLength = size(index);&lt;br&gt;indexLength = indexLength(1, 1);" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
+          <mxGeometry x="217.75" y="460" width="194.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0MCQ88xSsWupAYkgzbr_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8f3rZ-sCkK41nDPaR_Mb-1" source="0MCQ88xSsWupAYkgzbr_-6" target="0MCQ88xSsWupAYkgzbr_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MCQ88xSsWupAYkgzbr_-6" value="随机种子&lt;br&gt;SEED = 99;&lt;br&gt;rand(&#39;state&#39;, SEED);" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
+          <mxGeometry x="255" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0MCQ88xSsWupAYkgzbr_-8" value="随机打乱非0元素下标&lt;br&gt;index = index(randperm(indexLength));" style="whiteSpace=wrap;html=1;" vertex="1" parent="8f3rZ-sCkK41nDPaR_Mb-1">
+          <mxGeometry x="203" y="630" width="225" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
