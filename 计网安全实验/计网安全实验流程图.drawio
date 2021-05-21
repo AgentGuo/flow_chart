@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T09:38:45.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62" etag="p8hXDbv1O-aNv7Do_RV-" version="14.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T11:11:19.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62" etag="c_vo82VH5wiKA0MTu8Fx" version="14.6.2" type="github">
   <diagram id="WdhfHRNgfEafMwIZ4pqM" name="Page-1">
     <mxGraphModel dx="1148" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
         <mxCell id="MaixqMWJUEoV6DAxjpzi-2" value="VPN服务器父进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="240" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MaixqMWJUEoV6DAxjpzi-3" value="VPN客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-3" value="VPN客户端1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="240" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MaixqMWJUEoV6DAxjpzi-4" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
@@ -57,10 +57,10 @@
             <mxPoint x="405" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MaixqMWJUEoV6DAxjpzi-14" value="4.建立ssl会话（验证VPN服务器）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-14" value="4.建立ssl隧道（验证VPN服务器）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="550" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MaixqMWJUEoV6DAxjpzi-15" value="VPN服务器子进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-15" value="VPN服务器子进程1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="520" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MaixqMWJUEoV6DAxjpzi-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
@@ -71,6 +71,51 @@
         </mxCell>
         <mxCell id="MaixqMWJUEoV6DAxjpzi-18" value="VPN服务器&lt;br&gt;创建子进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="380" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-21" value="" style="shape=flexArrow;endArrow=classic;startArrow=none;html=1;" edge="1" parent="1" source="MaixqMWJUEoV6DAxjpzi-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="225" y="630" as="sourcePoint" />
+            <mxPoint x="405" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-22" value="SSL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-23" value="" style="shape=flexArrow;endArrow=none;startArrow=classic;html=1;" edge="1" parent="1" target="MaixqMWJUEoV6DAxjpzi-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="225" y="630" as="sourcePoint" />
+            <mxPoint x="405" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-24" value="socket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-25" value="tun接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="640" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-26" value="其他程序" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="635" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-28" value="socket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="610" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-29" value="tun接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="635" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-30" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MaixqMWJUEoV6DAxjpzi-26" target="MaixqMWJUEoV6DAxjpzi-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-31" value="其他程序" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="630" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MaixqMWJUEoV6DAxjpzi-32" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="MaixqMWJUEoV6DAxjpzi-29" target="MaixqMWJUEoV6DAxjpzi-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="660" as="sourcePoint" />
+            <mxPoint x="165" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
