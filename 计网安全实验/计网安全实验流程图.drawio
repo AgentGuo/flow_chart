@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T15:57:51.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41" etag="C2qGidFFeMwc8bpV6Odx" version="14.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-09T16:14:07.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41" etag="cLFuXUFOMLhg-1Rdg1Cm" version="14.7.0" type="github" pages="4">
   <diagram id="WdhfHRNgfEafMwIZ4pqM" name="Page-1">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -339,6 +339,186 @@
         </mxCell>
         <mxCell id="F93k4xKoHmR7P6Y7fomp-31" value="tun0网卡" style="rounded=1;whiteSpace=wrap;html=1;" parent="F93k4xKoHmR7P6Y7fomp-1" vertex="1">
           <mxGeometry x="504.37" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0sZn5izR3l0rjOCL-bTg" name="Page-4">
+    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-0" />
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-1" parent="WTod7PsV9O6mwAHLUd4x-0" />
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-6" target="WTod7PsV9O6mwAHLUd4x-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="245" />
+              <mxPoint x="510" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-6" target="WTod7PsV9O6mwAHLUd4x-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-6" value="VPN服务器父进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="320" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-7" value="第count个VPN客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="10" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-8" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="290" as="sourcePoint" />
+            <mxPoint x="315" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-9" value="1.建立一个tcp套接字" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="160" y="270" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-10" value="" style="endArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="137.5" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-11" value="2.发送登录的用户名和密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=15;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="145" y="320" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-12" value="输入用户名&lt;br&gt;和密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="60" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-13" value="对用户名和密码做hash运算，&lt;br&gt;与shadow文件中的摘要值对比" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="320" y="370" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-14" value="" style="endArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="400" as="sourcePoint" />
+            <mxPoint x="130" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-15" value="3.验证成功（成功验证VPN客户端）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-15;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="115" y="400" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-16" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="570" as="sourcePoint" />
+            <mxPoint x="305" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-17" value="4.建立ssl隧道（验证VPN服务器）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="120" y="540" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-18" target="WTod7PsV9O6mwAHLUd4x-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-18" value="VPN服务器子进程count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="320" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-19" value="" style="endArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="470" as="sourcePoint" />
+            <mxPoint x="302.5" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-20" value="VPN服务器&lt;br&gt;创建子进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rounded=0;shadow=0;sketch=0;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="510" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-21" value="" style="shape=flexArrow;endArrow=classic;startArrow=none;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="275" y="1000" as="sourcePoint" />
+            <mxPoint x="455" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-22" value="SSL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="340" y="990" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-23" value="" style="shape=flexArrow;endArrow=none;startArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" target="WTod7PsV9O6mwAHLUd4x-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="275" y="1000" as="sourcePoint" />
+            <mxPoint x="455" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-24" value="socket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="210" y="980" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-25" value="tun接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="205" y="1010" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-26" value="其他程序" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="90" y="1005" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-27" value="socket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="470" y="980" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-28" value="tun接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="465" y="1005" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-29" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-26" target="WTod7PsV9O6mwAHLUd4x-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="850" as="sourcePoint" />
+            <mxPoint x="500" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-30" value="其他程序" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="560" y="1000" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-31" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-28" target="WTod7PsV9O6mwAHLUd4x-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1030" as="sourcePoint" />
+            <mxPoint x="215" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-35" value="为客户端分配虚拟ip: 192.168.53.count" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="92.5" y="590" width="255" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-36" value="" style="endArrow=classic;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="620" as="sourcePoint" />
+            <mxPoint x="140" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-37" value="内网主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="680" y="145" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-38" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-37" target="WTod7PsV9O6mwAHLUd4x-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="140" as="sourcePoint" />
+            <mxPoint x="510" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-39" value="回应报文发送给虚拟ip:192.168.63.count" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="425" y="130" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-40" value="根据count写入指定管道pipe[count]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-42" value="从虚拟管道中读取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="320" y="650" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-45" value="发送给客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="160" y="650" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" source="WTod7PsV9O6mwAHLUd4x-46" target="WTod7PsV9O6mwAHLUd4x-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-46" value="写入虚拟tun接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="330" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-48" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WTod7PsV9O6mwAHLUd4x-1" target="WTod7PsV9O6mwAHLUd4x-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="735" as="sourcePoint" />
+            <mxPoint x="450" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-49" value="发送给vpn服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="150" y="710" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WTod7PsV9O6mwAHLUd4x-52" value="发送给内网主机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WTod7PsV9O6mwAHLUd4x-1">
+          <mxGeometry x="480" y="710" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
