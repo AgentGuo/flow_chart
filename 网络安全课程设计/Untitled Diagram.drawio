@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-26T12:01:45.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="HutvQ-XHSJ3U-oJJDFhB" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-26T12:51:59.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="953wSwu_IU7cFGDKQhlC" version="16.1.0" type="github" pages="2">
   <diagram id="yyjMljFv-cnQipBiJX1D" name="Page-1">
     <mxGraphModel dx="834" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -96,6 +96,110 @@
         </mxCell>
         <mxCell id="F0aWWNhPNEH1Pjoyhepn-30" value="读取日志、状态表，&lt;br&gt;读写防火墙规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="225" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BUIhAj4p0ccu4YDprE7Y" name="Page-2">
+    <mxGraphModel dx="1008" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-0" />
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-1" parent="_QWc1vl2VLNXFZCxOitX-0" />
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-4" target="_QWc1vl2VLNXFZCxOitX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-4" value="&lt;div style=&quot;line-height: 19px&quot;&gt;chr_ioctl(struct file* filp, unsigned int cmd, unsigned long arg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="260" y="150" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-5" value="switch(cmd)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="380" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-7" target="_QWc1vl2VLNXFZCxOitX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-7" value="&lt;div style=&quot;line-height: 19px&quot;&gt;MEM_CLEAR&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="140" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-8" target="_QWc1vl2VLNXFZCxOitX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-8" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;INSERT_RULE&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="260" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-9" value="释放filp指向的内存空间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="142.5" y="370" width="85" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-12" value="从arg地址处读取配置，插入到filp相应的规则链表中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="252.5" y="370" width="105" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-15" target="_QWc1vl2VLNXFZCxOitX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-15" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;GET_RULE_NUM&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="390" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-16" value="遍历规则链表，得到规则链表长度，写入arg" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="382.5" y="375" width="125" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-19" target="_QWc1vl2VLNXFZCxOitX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-19" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;GET_RULE&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="540" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-20" value="获得整个规则链表，写入arg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="525" y="375" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-23" target="_QWc1vl2VLNXFZCxOitX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-23" value="&lt;div style=&quot;line-height: 19px&quot;&gt;GET_LOG_NUM&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="190" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-27" value="遍历日志链表，得到日志链表长度，写入arg" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="177.5" y="500" width="125" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-29" target="_QWc1vl2VLNXFZCxOitX-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-29" value="&lt;div style=&quot;line-height: 19px&quot;&gt;GET_LOG&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="333.75" y="450" width="77.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-30" value="获得整个日志链表，写入arg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="317.5" y="500" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-32" target="_QWc1vl2VLNXFZCxOitX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-32" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;GET_STATE_NUM&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="457.5" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-33" value="遍历状态检测链表，得到状态检测链表长度，写入arg" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="458.75" y="500" width="107.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-36" target="_QWc1vl2VLNXFZCxOitX-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-36" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;GET_STATE&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="602.5" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-37" value="获得整个状态检测链表，写入arg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="592.5" y="500" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_QWc1vl2VLNXFZCxOitX-1" source="_QWc1vl2VLNXFZCxOitX-39" target="_QWc1vl2VLNXFZCxOitX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-39" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;DEL_RULE&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="660" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_QWc1vl2VLNXFZCxOitX-40" value="从规则链表指定规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="_QWc1vl2VLNXFZCxOitX-1">
+          <mxGeometry x="660" y="370" width="80" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
