@@ -1,1 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T13:42:34.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" version="16.1.0" etag="FaGUgTcg6HX3z2rO1-WZ" type="github"><diagram id="bm2xFlxLphIs9lqiKEDO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-27T14:38:15.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="DsBMJLaieSrl4fRIKEDu" version="16.1.0" type="github">
+  <diagram id="bm2xFlxLphIs9lqiKEDO" name="Page-1">
+    <mxGraphModel dx="674" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-2" target="vdrFXdbDxXewm1AQGKmw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385.51724137931024" y="140.0040029985007" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="426" y="170" />
+              <mxPoint x="235" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-2" target="vdrFXdbDxXewm1AQGKmw-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="170" />
+              <mxPoint x="622" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-2" value="&lt;span&gt;Netfilter hook&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="100" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-3" target="vdrFXdbDxXewm1AQGKmw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-3" value="&lt;div style=&quot;line-height: 19px&quot;&gt;NF_INET_POST_ROUTING&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190.01" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-4" target="vdrFXdbDxXewm1AQGKmw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-4" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;NF_INET_PRE_ROUTING&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="190.01" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-8" target="vdrFXdbDxXewm1AQGKmw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-8" target="vdrFXdbDxXewm1AQGKmw-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-8" value="ip_src == 192.168.218.0/24&lt;br&gt;ip_dst != 192.168.218.0/24" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250.01" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-10" value="&lt;div style=&quot;line-height: 19px&quot;&gt;intraNat&lt;/div&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;添加到NAT转换表&lt;/div&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;源ip地址修改为192.168.18.128&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="350.01" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-12" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320.01" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-13" target="vdrFXdbDxXewm1AQGKmw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-13" target="vdrFXdbDxXewm1AQGKmw-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-13" value="&lt;span&gt;ip_src != 192.168.218.0/24&lt;/span&gt;&lt;br&gt;&lt;span&gt;ip_dst != 192.168.218.0/24&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="252.51" width="244" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-15" value="&lt;div style=&quot;line-height: 19px&quot;&gt;extraNat&lt;/div&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;目的ip地址修改为NAT查找的对应的IP&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514.25" y="420" width="215.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-16" target="vdrFXdbDxXewm1AQGKmw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vdrFXdbDxXewm1AQGKmw-16" target="vdrFXdbDxXewm1AQGKmw-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-16" value="&lt;span&gt;查找NAT转换表&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="557" y="340.01" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-19" value="不处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-23" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="317.51" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-24" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390.01" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-25" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="483" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-26" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="368" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vdrFXdbDxXewm1AQGKmw-27" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="537" y="340.01" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
