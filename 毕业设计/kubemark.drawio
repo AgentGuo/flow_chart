@@ -1,1 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T08:47:34.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="17.5.0" etag="T3cul0pcC9aC3m6ziCvS" type="github"><diagram id="TvC6liM8nmGBTBNHQ8jr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-05T09:17:48.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="KhXaqxcdbbgdKb58neOK" version="17.5.0" type="github">
+  <diagram id="TvC6liM8nmGBTBNHQ8jr" name="Page-1">
+    <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-1" value="external cluster" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="250" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-3" value="kube-controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="10" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-4" value="kube-scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="130" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-5" value="kube-apiserver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="90" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-8" value="worker node1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="15" y="160" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-9" value="hollow pod1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="15" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-10" value="hollow pod2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="15" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-11" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="15" y="240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-12" value="worker node2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="155" y="160" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-13" value="worker node3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="155" y="205" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;. . .&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry x="175" y="245" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="139.71" as="sourcePoint" />
+            <mxPoint x="250" y="139.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="Jygifdpx3FG7_CY_ONUm-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="140" y="165" as="sourcePoint" />
+            <mxPoint x="140" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-2" value="kubemark cluster" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-17" value="kube-controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry x="10" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-18" value="kube-scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry x="130" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-19" value="kube-apiserver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry x="60" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-20" value="&lt;font style=&quot;font-size: 12px&quot;&gt;hollow node1&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry x="10" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-21" value="&lt;font style=&quot;font-size: 12px&quot;&gt;hollow node2&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry x="100" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-22" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="110" y="170" as="sourcePoint" />
+            <mxPoint x="109.85" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;" edge="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="140" as="sourcePoint" />
+            <mxPoint x="250" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;. . .&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Jygifdpx3FG7_CY_ONUm-2">
+          <mxGeometry x="190" y="185" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Jygifdpx3FG7_CY_ONUm-2" source="Jygifdpx3FG7_CY_ONUm-19" target="Jygifdpx3FG7_CY_ONUm-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="100" as="sourcePoint" />
+            <mxPoint x="320" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="130" />
+              <mxPoint x="220" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Jygifdpx3FG7_CY_ONUm-2" source="Jygifdpx3FG7_CY_ONUm-19" target="Jygifdpx3FG7_CY_ONUm-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="160" as="sourcePoint" />
+            <mxPoint x="320" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="120" />
+              <mxPoint x="200" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Jygifdpx3FG7_CY_ONUm-2" source="Jygifdpx3FG7_CY_ONUm-19" target="Jygifdpx3FG7_CY_ONUm-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="170" as="sourcePoint" />
+            <mxPoint x="320" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="130" />
+              <mxPoint x="250" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jygifdpx3FG7_CY_ONUm-9" target="Jygifdpx3FG7_CY_ONUm-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="310" />
+              <mxPoint x="350" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-27" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jygifdpx3FG7_CY_ONUm-10" target="Jygifdpx3FG7_CY_ONUm-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="330" />
+              <mxPoint x="360" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-28" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jygifdpx3FG7_CY_ONUm-11" target="Jygifdpx3FG7_CY_ONUm-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="360" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="300" />
+              <mxPoint x="350" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jygifdpx3FG7_CY_ONUm-29" value="register" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
