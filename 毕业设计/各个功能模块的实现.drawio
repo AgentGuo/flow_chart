@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T05:40:21.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="7u60HfoRMZRHeCeAPfgm" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T05:55:34.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="_6e9URHQqdXSzxHJxRaW" version="17.5.0" type="github" pages="2">
   <diagram id="m4bHccsf1nP5fsRGhA8c" name="Page-1">
     <mxGraphModel dx="539" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -305,8 +305,14 @@
         <mxCell id="j5_gnD3YA7jNJq1EvDXr-8" value="heart beat&lt;br&gt;timeout" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="160" y="323.44" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j5_gnD3YA7jNJq1EvDXr-9" value="schedule delete event" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j5_gnD3YA7jNJq1EvDXr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="j5_gnD3YA7jNJq1EvDXr-9" target="j5_gnD3YA7jNJq1EvDXr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5_gnD3YA7jNJq1EvDXr-9" value="scheduler delete event" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="390" width="130" height="36.56" as="geometry" />
+        </mxCell>
+        <mxCell id="j5_gnD3YA7jNJq1EvDXr-11" value="更新scheduler map和分区状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="450" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
