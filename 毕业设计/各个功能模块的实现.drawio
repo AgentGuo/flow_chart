@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T07:02:06.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="5_eIooSILL77RdPuBTBO" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-05T07:06:25.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="6849jrxSoOkfhL8kJDoL" version="17.5.0" type="github" pages="4">
   <diagram id="m4bHccsf1nP5fsRGhA8c" name="Page-1">
     <mxGraphModel dx="539" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -430,15 +430,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e4uq-7RAmFT2PL-dFwkv" name="Page-4">
-    <mxGraphModel dx="1117" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Li69cZkLrICGLa_tEp7W-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-3" target="Li69cZkLrICGLa_tEp7W-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-3" target="Li69cZkLrICGLa_tEp7W-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-3" target="Li69cZkLrICGLa_tEp7W-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Li69cZkLrICGLa_tEp7W-3" value="pod status&lt;br&gt;map" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="240" y="90" width="60" height="70" as="geometry" />
+          <mxGeometry x="320" y="90" width="60" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li69cZkLrICGLa_tEp7W-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-4" target="Li69cZkLrICGLa_tEp7W-6">
           <mxGeometry relative="1" as="geometry" />
@@ -609,6 +615,36 @@
         </mxCell>
         <mxCell id="Li69cZkLrICGLa_tEp7W-49" value="pod.startTime = now()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="452.5" y="525" width="125" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-62" target="Li69cZkLrICGLa_tEp7W-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-62" target="Li69cZkLrICGLa_tEp7W-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-62" value="pod status update" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="190" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-64" value="pod.status = Finished" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="270" width="130" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-66" value="pod.status = Failed" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="110" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-68" target="Li69cZkLrICGLa_tEp7W-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-68" value="pod delete" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521.25" y="107.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Li69cZkLrICGLa_tEp7W-70" target="Li69cZkLrICGLa_tEp7W-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-70" value="pod.status = Finished &amp;amp;&amp;amp;&amp;nbsp;&lt;br&gt;now()-pod.startTime &amp;gt; podExpire?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="170" width="257.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Li69cZkLrICGLa_tEp7W-72" value="删除pod" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="526.87" y="257.5" width="68.75" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
