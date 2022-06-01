@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T09:27:52.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="AIZqaPFwZnHUKPiPmfD-" version="18.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-01T06:28:42.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="l5Kjf0QMxqvbrxTB_Ww3" version="18.1.2" type="github" pages="4">
   <diagram id="fLfctS0Doj3L_qTz2Ks7" name="Page-1">
     <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -554,18 +554,22 @@
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-16" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="iAE0PwSJdm-BemNtRBds-13" vertex="1" connectable="0">
           <mxGeometry x="-0.2174" y="2" relative="1" as="geometry">
-            <mxPoint x="-15" y="-2" as="offset" />
+            <mxPoint x="11" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iAE0PwSJdm-BemNtRBds-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wmp7Go0cPZFRv1ouc1-Q-1" target="iAE0PwSJdm-BemNtRBds-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="iAE0PwSJdm-BemNtRBds-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wmp7Go0cPZFRv1ouc1-Q-1" target="iAE0PwSJdm-BemNtRBds-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-17" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="iAE0PwSJdm-BemNtRBds-15" vertex="1" connectable="0">
           <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
-            <mxPoint x="18" y="1" as="offset" />
+            <mxPoint x="-6" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wmp7Go0cPZFRv1ouc1-Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iAE0PwSJdm-BemNtRBds-10" target="wmp7Go0cPZFRv1ouc1-Q-1">
+        <mxCell id="wmp7Go0cPZFRv1ouc1-Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iAE0PwSJdm-BemNtRBds-10" target="wmp7Go0cPZFRv1ouc1-Q-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-10" value="执行原有的调度逻辑" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -574,34 +578,34 @@
         <mxCell id="iAE0PwSJdm-BemNtRBds-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="iAE0PwSJdm-BemNtRBds-12" target="iAE0PwSJdm-BemNtRBds-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="345" y="550" />
+              <mxPoint x="360" y="550" />
               <mxPoint x="400" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-12" value="成功在分区内调度pod" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="500" width="130" height="30" as="geometry" />
+          <mxGeometry x="295" y="500" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="iAE0PwSJdm-BemNtRBds-14" target="iAE0PwSJdm-BemNtRBds-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-14" value="调度失败" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="425" y="500" width="70" height="30" as="geometry" />
+          <mxGeometry x="440" y="500" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="iAE0PwSJdm-BemNtRBds-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="320" as="targetPoint" />
             <Array as="points">
               <mxPoint x="400" y="550" />
-              <mxPoint x="510" y="550" />
-              <mxPoint x="510" y="320" />
+              <mxPoint x="530" y="550" />
+              <mxPoint x="530" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iAE0PwSJdm-BemNtRBds-18" value="更新pod状态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="570" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wmp7Go0cPZFRv1ouc1-Q-1" value="调度成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wmp7Go0cPZFRv1ouc1-Q-1" value="调度成功？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="420" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
