@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T06:32:24.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="TkU65tQxF7lug-srwoji" version="18.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-01T06:34:13.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="A-P0LtrUB1r7Z6ecJ_eS" version="18.1.2" type="github" pages="4">
   <diagram id="m4bHccsf1nP5fsRGhA8c" name="Page-1">
     <mxGraphModel dx="823" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -215,7 +215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uBHuakWJhPPgRtdTngX6" name="Page-2">
-    <mxGraphModel dx="1117" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1564" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,7 +264,7 @@
             <mxPoint x="5" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tYgxeHyzE9cOC-M0o53c-7" target="y2uKCP8vzYj8YYXXX7Sh-2">
+        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tYgxeHyzE9cOC-M0o53c-7" target="y2uKCP8vzYj8YYXXX7Sh-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-7" value="生成scheID" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -273,24 +273,28 @@
         <mxCell id="tYgxeHyzE9cOC-M0o53c-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="tYgxeHyzE9cOC-M0o53c-15" target="tYgxeHyzE9cOC-M0o53c-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-6" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tYgxeHyzE9cOC-M0o53c-18">
+        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-6" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYgxeHyzE9cOC-M0o53c-18" vertex="1" connectable="0">
           <mxGeometry x="0.2751" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="tYgxeHyzE9cOC-M0o53c-15" target="tYgxeHyzE9cOC-M0o53c-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="282" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-7" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tYgxeHyzE9cOC-M0o53c-20">
+        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-7" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYgxeHyzE9cOC-M0o53c-20" vertex="1" connectable="0">
           <mxGeometry x="-0.1795" y="3" relative="1" as="geometry">
-            <mxPoint x="22" as="offset" />
+            <mxPoint x="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-15" value="added successfully ?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="283.75" y="261.88" width="162.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-17" value="failed: exit" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="338.76" width="65" height="33.12" as="geometry" />
+          <mxGeometry x="332.5" y="338.76" width="65" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="tYgxeHyzE9cOC-M0o53c-19" target="tYgxeHyzE9cOC-M0o53c-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -299,13 +303,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-19" value="获得分区节点" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="338.76" width="90" height="33.12" as="geometry" />
+          <mxGeometry x="415" y="338.76" width="90" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-22" value="schedule cycle" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="325" y="411.88" width="95" height="30" as="geometry" />
+          <mxGeometry x="370" y="411.88" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-25" value="run heart beat" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="430" y="411.88" width="80" height="30" as="geometry" />
+          <mxGeometry x="475" y="411.88" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tYgxeHyzE9cOC-M0o53c-27" value="sche1" style="whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="120" y="256.88" width="50" height="30" as="geometry" />
@@ -334,10 +338,10 @@
         <mxCell id="j5_gnD3YA7jNJq1EvDXr-11" value="更新scheduler map和分区状态" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="147.5" y="450" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y2uKCP8vzYj8YYXXX7Sh-2" target="tYgxeHyzE9cOC-M0o53c-15">
+        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y2uKCP8vzYj8YYXXX7Sh-2" target="tYgxeHyzE9cOC-M0o53c-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-2" value="&lt;span style=&quot;&quot;&gt;scheduler add event&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y2uKCP8vzYj8YYXXX7Sh-2" value="&lt;span style=&quot;&quot;&gt;scheduler add event&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="305" y="216.88" width="120" height="26.56" as="geometry" />
         </mxCell>
       </root>
