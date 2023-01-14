@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T03:56:52.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="6jQKgXSQjcXZNN88gEdO" type="github"><diagram id="bBNE1pZOWyzjGaBAS9va">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-14T04:02:29.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="onAYEzNRJA29ElhkjWUz" type="github">
+  <diagram id="zd2YMGBAVBqtFV-zTe09" name="第 1 页">
+    <mxGraphModel dx="1006" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HKMOdhftIPaGS4aDdyap-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKMOdhftIPaGS4aDdyap-1" target="HKMOdhftIPaGS4aDdyap-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKMOdhftIPaGS4aDdyap-1" target="HKMOdhftIPaGS4aDdyap-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKMOdhftIPaGS4aDdyap-1" target="HKMOdhftIPaGS4aDdyap-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKMOdhftIPaGS4aDdyap-1" target="HKMOdhftIPaGS4aDdyap-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKMOdhftIPaGS4aDdyap-1" target="HKMOdhftIPaGS4aDdyap-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKMOdhftIPaGS4aDdyap-1" target="HKMOdhftIPaGS4aDdyap-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKMOdhftIPaGS4aDdyap-1" target="HKMOdhftIPaGS4aDdyap-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-1" value="新时代中国特色社会主义生态文明理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="435" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-2" value="坚持人与自然和谐共生理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-3" value="绿水青山就是金山银山理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-4" value="良好生态环境是最普惠的民生福祉的理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-5" value="山水林田湖沙草是生命共同体的理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-6" value="用最严格的制度最严密法制保护生态环境的理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="490" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-7" value="共建地球生命共同体的理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKMOdhftIPaGS4aDdyap-8" value="建立健全生态文明体系的理论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="590" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
