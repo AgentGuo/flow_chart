@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T04:14:29.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qiEhDBFy3RnmvJxCUCzK" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-31T04:32:00.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="72d9lkQ11SU-WN6KV6Lf" version="21.1.8" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,16 +46,19 @@
           <mxGeometry x="60" y="316" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-18" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;CHfbdJ158oKmKKxTDB1cQosknrW&quot;&gt;&lt;div class=&quot;old-record-id-IgtFdN6Iko3XxbxAwm1cqpuun3d&quot;&gt;ObDDLService::create_tenant&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="400" y="70" width="165" height="560" as="geometry" />
+          <mxGeometry x="400" y="70" width="165" height="630" as="geometry" />
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GlnjvFnynsPtNdrdiKN6-18">
-          <mxGeometry x="77.5" y="407" width="10" height="133" as="geometry" />
+          <mxGeometry x="77.5" y="407" width="10" height="193" as="geometry" />
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GlnjvFnynsPtNdrdiKN6-18">
           <mxGeometry x="82.5" y="411" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GlnjvFnynsPtNdrdiKN6-18">
-          <mxGeometry x="82.5" y="472" width="10" height="60" as="geometry" />
+          <mxGeometry x="82.5" y="471" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlnjvFnynsPtNdrdiKN6-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GlnjvFnynsPtNdrdiKN6-18">
+          <mxGeometry x="82.5" y="531" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-20" value="mysql client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="290" width="30" height="60" as="geometry" />
@@ -69,8 +72,8 @@
         <mxCell id="GlnjvFnynsPtNdrdiKN6-26" value="bootstrap sql" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="298" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GlnjvFnynsPtNdrdiKN6-28" value="prepare_bootstrap:&lt;br&gt;创建日志流、选主" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="323" width="120" height="40" as="geometry" />
+        <mxCell id="GlnjvFnynsPtNdrdiKN6-28" value="prepare_bootstrap:&lt;br&gt;创建日志流、等待选主" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="323" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-29" value="execute_bootstrap:&lt;br&gt;创建系统租户、表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="390" width="130" height="40" as="geometry" />
@@ -99,17 +102,20 @@
         <mxCell id="GlnjvFnynsPtNdrdiKN6-38" value="create user tenant&lt;br&gt;创建user租户、表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="545" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GlnjvFnynsPtNdrdiKN6-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="GlnjvFnynsPtNdrdiKN6-18">
+        <mxCell id="GlnjvFnynsPtNdrdiKN6-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="400" as="sourcePoint" />
-            <mxPoint x="410" y="610" as="targetPoint" />
+            <mxPoint x="485" y="670" as="sourcePoint" />
+            <mxPoint x="413" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-40" value="return" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="425" y="586" width="50" height="30" as="geometry" />
+          <mxGeometry x="425" y="640" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GlnjvFnynsPtNdrdiKN6-41" value="mysql client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlnjvFnynsPtNdrdiKN6-44" value="等待租户创建&lt;br&gt;状态机流转完毕" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
